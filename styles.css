@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    font-family: my-font;
+    color: #777;
+}
+
+@font-face {
+    font-family: "my-font";
+    src: url("fonts/Edu_NSW_ACT_Foundation/EduNSWACTFoundation-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("fonts/booter/Booter/BOOTERZZ.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Metal Menia";
+    src: url("fonts/Metal_Mania/MetalMania-Regular.ttf");
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+} 
+
+.nav a{
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+}
+
+.main-nav li{
+    padding: 0 5%;
+}
+
+.nav a:hover{
+    background-color: rgba(255,255,255,.3);
+}
+
+.main-header{
+    background-image: url("images/main-header4.png");
+    background-color: rgba(0,0,0,.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding: 30px;
+}
+
+.sherlock-name{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: white;
+}
+
+.sherlock-header-large{
+    font-size: 6em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    font-family: "Metal Menia";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-sherlock-holmes{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer{
+    background-color:#56CCF2;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav{
+    padding: 0;
+}
+
+.footer-nav li{
+    width: 30px;
+    height: 30px;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header{
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255,255,255,.1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover{
+    background-color: rgba(255,255,255,.3);
+}
+
+.btn-play{
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.tour-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+}
