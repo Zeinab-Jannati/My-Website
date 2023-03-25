@@ -22,9 +22,10 @@
     <section>
         <section class="container content-section">
             <h2 class="section-header">MUSIC</h2>
+            <section class="shop-items">
                 <section class="shop-item">
                     <span class="shop-item-title">Season 1</span>
-                    <img src="./images/OIP (1).png" alt="">
+                    <img class="shop-item-image" src="./images/R.png" alt="">
                     <section class="shop-item-details">
                         <span class="shop-item-price">$12.99</span>
                         <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
@@ -40,7 +41,7 @@
                 </section>
                 <section class="shop-item">
                     <span class="shop-item-title">Season 3</span>
-                    <img class="shop-item-image" src="./images/R (1).png" alt="">
+                    <img class="shop-item-image" src="./images/R (5).png" alt="">
                     <section class="shop-item-details">
                         <span class="shop-item-price">$12.99</span>
                         <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
@@ -48,72 +49,100 @@
                 </section>
                 <section class="shop-item">
                     <span class="shop-item-title">Season 4</span>
-                    <img class="shop-item-image" src="./images/R (4).png" alt="">
+                    <img class="shop-item-image" src="./images/R (2).png" alt="">
                     <section class="shop-item-details">
                         <span class="shop-item-price">$12.99</span>
                         <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
                     </section>
                 </section>
-        </section>
-        <section>
-            <h2>MERCH</h2>
-            <section>
-                <section>
-                    <section>
-                        <strong>Season 4</strong>
-                    </section>
-                    <img src="./images/R (4).png" alt="">
-                    <section>
-                        <span>$12.99</span>
-                        <button role="button">ADD TO CART</button>
+                <section class="shop-item">
+                    <span class="shop-item-title">Season 5</span>
+                    <img class="shop-item-image" src="./images/R (3).png" alt="">
+                    <section class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
                     </section>
                 </section>
             </section>
         </section>
-        <section>
-            <h1>CART</h1>
-            <section>
-                <strong>ITEM</strong>
-                &lt;&gt;
-                <strong>PRICE</strong>
-                &lt;&gt;
-                <strong>QUANTITY</strong>
+        <section class="container content-section">
+            <h2 class="section-header">MERCH</h2>
+            <section class="shop-items">
+                <section>
+                    <span class="shop-item-title">Season 4</span>
+                    <img class="shop-item-image" src="./images/R (1).png" alt="">
+                    <section class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
+                    </section>
+                </section>
+                <section>
+                    <span class="shop-item-title">Season 4</span>
+                    <img class="shop-item-image" src="./images/R.png" alt="">
+                    <section class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
+                    </section>
+                </section>
             </section>
-            <section>
-                <img src="images/R (2).png" alt="" width="100" height="100">
-                <span>T-shirt</span>
-                &lt;&gt;
-                <span>$19.22</span>
-                &lt;&gt;
-                <input type="number" value="1">
-                <button role="button">REMOVE</button>
+        </section>
+        <section class="container content-section">
+            <h1 class="section-header">CART</h1>
+            <section class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
             </section>
-            <section>
-                <img src="images/R (5).png" alt="" width="100" height="100">
-                <span>T-shirt</span>
-                &lt;&gt;
-                <span>$19.22</span>
-                &lt;&gt;
-                <input type="number" value="2">
-                <button role="button">REMOVE</button>
+            <section class="cart-itmes">
+                <section class="cart-row">
+                    <section class="cart-item cart-column">
+                        <img class="cart-item-image" src="images/R (3).png" alt="" width="100" height="100">
+                        <span class="cart-item-title">T-shirt</span>
+                    </section>
+                    <span class="cart-price cart-column">$19.22</span>
+                    <section class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" role="button">REMOVE</button>
+                    </section>
+                </section>
+                <section class="cart-row">
+                    <section class="cart-item cart-column">
+                        <img class="cart-item-image" src="images/R (5).png" alt="" width="100" height="100">
+                        <span class="cart-item-title">T-shirt</span>
+                    </section>
+                    <span class="cart-price cart-column">$19.22</span>
+                    <section class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" role="button">REMOVE</button>
+                    </section>
+                </section>
             </section>
-            <hr>
-            <section>
-                <strong>Total</strong>
-                <span>$37.55</span>
+            <section class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$37.55</span>
             </section>
-            <section>
-                <button role="button">PURCHASE</button>
-            </section>
+            <button class="btn btn-primary btn-purchase" role="button">PURCHASE</button>
         </section>
     </section>
     <footer class="main-footer">
         <section class="container main-footer-container">
             <h3 class="sherlock-name">Sherlock Holmes</h3>
             <ul class="nav footer-nav">
-                <li><a href="https://youtube.com" target="_blank">youtube</a></li>
-                <li><a href="https://spotify.com" target="_blank">spotify</a></li>
-                <li><a href="https://facebook.com" target="_blank">facebook</a></li>
+                <li>
+                    <a href="https://www.youtube.com" target="_blank">
+                        <img src="Images/YouTube Logo.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.spotify.com" target="_blank">
+                        <img src="Images/Spotify Logo.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="Images/Facebook Logo.png">
+                    </a>
+                </li>
             </ul>
         </section>
     </footer>
